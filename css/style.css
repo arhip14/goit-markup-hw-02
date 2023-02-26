@@ -1,0 +1,149 @@
+
+/* MAIN-COLOR */
+:root {
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --logo-color: #4d5ae5;
+  --items-active-color: #404bbf;
+  --btn-hero-color: #fff;
+  --btn--hover--color: #404bbf;
+  --teaam-section-color: #f4f4fd;
+  --footer-text-color : #e7e9fc;
+}
+
+
+/* LOGO */
+.logo {
+  color:var(--secondary-text-color);
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo span {
+  color:var(--logo-color)
+}
+.footer-logo {
+  color:var(--teaam-section-color);
+}
+.footer-logo span {
+  color:var(--logo-color)}
+  .footer-descr {
+  color:var(--footer-text-color)
+  }
+
+
+/* BODY */
+body {
+  color:var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+
+/* BUTTON */
+.btn {
+  font-family: 'Roboto', inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.btn:hover,.btn:focus {
+  color:var(--btn-hero-color);
+  background-color: var(--btn--hover--color);
+}
+
+.main-btn {
+  color:var(--btn-hero-color);
+  background-color: var(--logo-color);
+}
+
+.secondary-btn {
+  color:var(--logo-color);
+  background-color: var(--teaam-section-color);
+}
+
+
+/* NAVIGATION */
+.list {
+  list-style: none;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-link {
+  color:var(--primary-text-color);
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-link:hover , .nav-link:focus {
+  color:var(--items-active-color);
+}
+.contacts-list {
+  list-style: none;
+}
+.contacts-list > .contacts-item {
+  font-style: normal;
+}
+.contacts-item > .contacts-link{
+  text-decoration: none;
+  color:var(--primary-text-color)
+}
+.contacts-link:hover ,  
+  .contacts-link:focus {
+  color:var(--btn--hover--color)
+}
+
+
+/* TITLE */
+.hero-title {
+  color:var(--btn-hero-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+.title {
+  color:var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+
+/* DESCRIPTION */
+.descr {
+  color:var(--secondary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.sub-descr {
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+/* COLOR */
+.hero {
+  background-color:var(--secondary-text-color);
+}
+.team {
+  background-color:var(--teaam-section-color) ;
+}
+.footer {
+  background-color: var(--secondary-text-color);
+}
