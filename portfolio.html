@@ -5,32 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="../goit-markup-hw-02/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
- 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
   </head>
   <body>
 <!--------HEADER-------->
-    <header >
-      <nav class="min-nav" >
-        <a href="./index.html" class="logo"><span>Web</span>Studio</a>
-        <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="">Studio</a></li>
-          <li class="nav-item"><a  class="nav-link"href="./portfolio.html" >Portfolio</a></li>
-          <li class="nav-item"><a  class="nav-link"href="">Contacts</a></li>
-        </ul>
-       </nav>
-      <address class="contacts">
-      <ul class="contacts-list" >
-          <li class="contacts-item"><a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a></li>
-          <li class="contacts-item"><a href="tel:+110001111111" class="contacts-link">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
-    </header>
+<header>
+  <div class="container main-nav"> 
+    <nav class="header-nav">
+    <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+    <ul class="nav-list">
+      <li class="nav-item"><a class="nav-link" href="">Studio</a></li>
+      <li class="nav-item"><a class="nav-link"href="./portfolio.html" >Portfolio</a></li>
+      <li class="nav-item"><a class="nav-link"href="" >Contacts</a></li>
+    </ul>
+    </nav>
+    <address class="contacts">
+    <ul class="contacts-list" >
+        <li class="contacts-item"><a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a></li>
+        <li class="contacts-item"><a href="tel:+110001111111" class="contacts-link">+11 (000) 111-11-11</a></li>
+    </ul>
+    </address>
+  </div>
+</header>
       <main>
-<!--------BUTTON-LIST-------->
         <section>
           <h1 hidden>header</h1>
           <ul class="nav-list list" >
@@ -40,7 +42,6 @@
             <li class="nav-item"><button type="button" class="secondary-btn btn">Design</button></li>
             <li class="nav-item"><button type="button" class="secondary-btn btn">Marketing</button></li>
           </ul>
-<!--------IMG-LIST-------->
           <ul class="list">
             <li>
               <img src="./images/BankingApp.jpg" alt="App" width="420"><h2 class="decsr">Banking App Interface Concept</h2>
